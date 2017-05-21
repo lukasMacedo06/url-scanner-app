@@ -7,7 +7,7 @@ $csv = Reader::createFromPath($argv[1]);
 $client = new \GuzzleHttp\Client();
 
 
-// CREATE A HANDLE TO THE LOG
+// CREATE A HANDLE TO THE LOG 
 $log = new \Monolog\Logger('log_url_csv');
 
 // CREATE A LOG CHANNEL

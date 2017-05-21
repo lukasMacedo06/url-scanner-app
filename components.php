@@ -2,7 +2,6 @@
 
 require 'vendor/autoload.php';
 
-
 //Using GuzzleHttp
 $client = new \GuzzleHttp\Client();
 $res = $client->request('GET', 'http://www.google.com.br');
